@@ -15,6 +15,6 @@ whatCanIDrink = function(age) {
         return "Drink Whisky";
     } 
     else {
-        return "Sorry. I can’t tell what drink because that age is incorrect!"
+        return "Sorry. I can't tell what drink because that age is incorrect!"
     }
 };

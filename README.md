@@ -13,4 +13,4 @@ If the age is less than 130, then it should return "Drink Whisky"
 Else return "Sorry. I can’t tell what drink because that age is incorrect!"
 
 ### Red-Green-Refactor principle
-A test will be written that will fail. Just enough code is written in the drinkAbout.js file to make the test pass. Refactoring the function makes it work.
+A few tests will be written in the file drinkAboutSpec.js that will fail in the Jasmine framework. Just enough code is written in the drinkAbout.js file to make the test pass. Refactoring the function makes it work.

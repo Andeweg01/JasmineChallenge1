@@ -28,7 +28,7 @@ describe("The whatCanIDrink function", function() {
                     expect(result).toBe("Drink Whisky");
                 });
 
-        it("should return no drink when whatCanIDrink(200) is called", function() {
+        it("should return No Drink when whatCanIDrink(200) is called", function() {
                     var result = whatCanIDrink(200)
                     expect(result).toBe("Sorry. I can't tell what drink because that age is incorrect!");
                 });
