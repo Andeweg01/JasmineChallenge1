@@ -1,6 +1,6 @@
 describe("The whatCanIDrink function", function() {
     beforeEach(function() {
-        drink = new whatCanIDrink();
+        drink = new whatCanIDrink;
     });
 
     describe("Checks the age"), function() {
@@ -33,4 +33,4 @@ describe("The whatCanIDrink function", function() {
             expect(result).toBe("Sorry. I can't tell what drink because that age is incorrect!");
         });
      });
-   });
+   })
